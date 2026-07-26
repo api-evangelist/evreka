@@ -1,0 +1,21 @@
+{
+  "repo": "evreka",
+  "feeds": [
+    {
+      "source": "https://evreka.co/rss.xml",
+      "feed_url": "https://evreka.co/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://evreka.co",
+      "feed_url": "https://evreka.co/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 49,
+  "fetched": "2026-07-25T15:00:33Z"
+}

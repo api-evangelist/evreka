@@ -1,7 +1,24 @@
 aid: evreka
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/evreka.png
 name: Evreka
-description: Evreka is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Evreka is a smart waste and recycling management technology company offering an end-to-end
+  "Sustainability as a Service" platform that digitizes the entire waste management lifecycle. Its software
+  suite spans operations, fleet, asset, MRF, and workforce management, route optimization, citizen engagement,
+  and EPR/PRO management, complemented by IoT hardware such as fill-level sensors, vehicle and container
+  trackers, and RFID readers. Evreka serves dumpster rental, recycling centers, medical, hazardous and liquid
+  waste, construction and demolition, local authorities, and cross-border waste operators. Backed by 500
+  Global, it is tracked in the API Evangelist network; no public API or developer portal is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/evreka/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Waste Management
+- Recycling
+- Sustainability
+- IoT
+- Fleet Management
+- Route Optimization
+- Environmental
+- SaaS
+- Asset Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/evreka-domain-security.yml
 - type: Website
   url: https://evreka.co
+- type: Blog
+  url: https://evreka.co/blog/
+- type: PrivacyPolicy
+  url: https://evreka.co/privacy-policy/
+- type: Support
+  url: https://evreka.co/contact-us/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
