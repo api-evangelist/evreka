@@ -31,6 +31,9 @@ description: Evreka is a smart waste and recycling management technology company
   waste, construction and demolition, local authorities, and cross-border waste operators. Backed by 500
   Global, it is tracked in the API Evangelist network; no public API or developer portal is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/evreka/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Backed by 500 Global, it is tracked in the API Evangelist network; no public API or developer portal is currently published."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
